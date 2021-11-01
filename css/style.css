@@ -1,0 +1,73 @@
+/*
+Theme Name: Halloween Costume Party Form Web Component
+Theme URI: -
+Author: MERT FURKAN ERGUDEN- MasterWeb2000
+Author URI: https:www.mertfurkanerguden.com
+Description:  Halloween Costume Party Registration Form
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text mert furkan erguden
+
+ 
+*/
+
+
+
+/* -----
+# Hero Seciton
+--------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+body{
+    background: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+   
+    height: 100vh;
+}
+
+
+.form-card{
+    margin-top: 5%;
+     
+}
+.card-header{
+    background-color: black;
+    color: red;
+}
+.card{
+    background-color: black !important;
+}
+
+h1,h2,h3,h4,h5,h6,p, span, label{
+    color: red !important;
+    font-family: 'Irish Grover', cursive;
+}
+
+.btn{
+    background-color: black !important;
+    color: red !important;
+    transition: .5s;
+    border-color: red !important;
+}
+
+.btn:hover{
+    background-color: red !important;
+    color: black !important;
+    border-color: transparent !important;
+}
+
+
+
+.divider p{
+    font-size: 2rem;
+}
+
+ 
+.footer p{
+    color: #fff !important;
+}
